@@ -252,6 +252,7 @@ footer {
 .mini-colonna {
     width: 20%;
     height: 100%;
+   margin-right:20px
 
 }
 
@@ -297,6 +298,8 @@ h3{
     list-style: none;
     color: white;
     text-align: left;
+    padding: 15px 0px;
+    
    
 }
 
