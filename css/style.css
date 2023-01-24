@@ -121,6 +121,7 @@ li {
 
 .entity {
     padding: 3px;
+    color: white;
 }
 
 .text-button {
@@ -243,7 +244,7 @@ footer {
 }
 
 .colonna-principale{
-    width: 40%;
+    width: 15%;
     height: 100%;
 
 
@@ -252,14 +253,17 @@ footer {
 .mini-colonna {
     width: 20%;
     height: 100%;
-   margin-right:20px
+   
 
 }
 
 #testo{
+    
     text-align: left;
     color: rgba(114,137,218,255);
     margin-bottom: 20px;
+    
+
 }
 
 .ita{
