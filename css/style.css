@@ -179,6 +179,8 @@ p {
 .main-bonus {
     margin: auto;
     width: 50%;
+    margin-bottom: 50px;
+   
 }
 
 .box-text{
@@ -192,6 +194,27 @@ h2 {
 
 }
 
+.white-button-big2{
+    display: inline-block;
+    font-family: Whitney, "Open Sans", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 40px;
+    width: 200px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    background-color:rgba(114,137,218,255);
+    border: 2px solid black;
+    color: #000;
+    padding: 5px;
+    margin-right: 15px;
+}
+
+.buttom-special{
+    display: flex;
+    justify-content: center;
+}
 
 footer {
     background-color: black;
