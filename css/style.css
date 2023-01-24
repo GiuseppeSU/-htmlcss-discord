@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+
+}
+
+
+
+.top {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.container {
+    height: 50px;
+    width: 25%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    height: 40px;
+
+}
+
+
+.container2 {
+    height: 50px;
+    width: 50%;
+    margin-top: 20px;
+}
+
+
+.list-flex {
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+}
+
+
+
+.color-text {
+    color: white;
+}
+
+
+
+.list-flex>li {
+    margin: 0px 10px;
+    list-style: none;
+    color: white;
+}
+
+
+
+.container3 {
+    height: 50px;
+    width: 25%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.white-button,
+.blue-button {
+    display: inline-block;
+    font-family: Whitney, "Open Sans", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 40px;
+    width: 80px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.white-button-big{
+    display: inline-block;
+    font-family: Whitney, "Open Sans", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 40px;
+    width: 200px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #000;
+    padding: 5px;
+    margin-right: 10px;
+
+}
+
+
+.black-button-big{
+    display: inline-block;
+    font-family: Whitney, "Open Sans", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 40px;
+    width: 300px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    background-color:black;
+    border: 2px solid black;
+    color: #000;
+    padding: 5px
+    
+
+
+}
+
+
+
+
+
+.blue-button {
+    background-color: #7289da;
+    border: 2px solid #7289da;
+    color: #fff;
+}
+
+
+.white-button {
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #000;
+    padding: 5px
+}
+
+.entity{
+    padding:3px;
+}
+
+
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 400px;
+}
+
+
+.box {
+    width: 35%;
+    height: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.text-button{
+    font-size: 20px;
+}
+
+.text-button2{
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.text{
+    padding: 20px;
+    color: white;
+}
+
+.box>h1{
+    font-size: 40px;
+}
+
+
+.box>p{
+    font-size: 18px;
+}
+
+
+.container4 {
+    background-color: orange;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box2 {
+    width: 25%;
+    height: 70%;
+    background-color: black;
+}
+
+.box3 {
+    width: 15%;
+    height: 70%;
+    background-color: green;
+}
+
+
+.container5 {
+    background-color: grey;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box4 {
+    width: 15%;
+    height: 70%;
+    background-color: black;
+}
+
+.box5 {
+    width: 25%;
+    height: 70%;
+    background-color: green;
+}
+
+
+.container6 {
+    background-color: black;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box6 {
+    width: 25%;
+    height: 70%;
+    background-color: blue;
+}
+
+.box7 {
+    width: 15%;
+    height: 70%;
+    background-color: crimson;
+}
+
+.box-max {
+    background-color: purple;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box8 {
+    width: 40%;
+    height: 90%;
+    background-color: crimson;
+}
+
+footer {
+    background-color: black;
+}
+
+
+.footer-top {
+    background-color: black;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+
+
+}
+
+.container7 {
+    width: 40%;
+    height: 70%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+
+.colonna1 {
+    width: 35%;
+    border: 1px dotted white;
+    height: 100%;
+
+
+}
+
+.mini-colonna {
+    width: 20%;
+    border: 1px dotted aqua;
+    height: 100%;
+
+}
+
+.footer-bottom {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container8 {
+    margin-top: 20px;
+    height: 50px;
+    width: 50%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+
