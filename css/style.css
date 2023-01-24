@@ -44,14 +44,14 @@ width:50%;
 padding: 20px;
 }
 
-h1{
+#text{
     text-align: center;
     color: white;
     padding: 20px;
     font-size: 40px;
 }
 
-p{
+#paragraph{
     text-align: center;
     color: white;
     padding: 20px;
@@ -72,7 +72,6 @@ p{
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
 }
 
-
 .white-button-big{
     display: inline-block;
     font-family: Whitney, "Open Sans", Helvetica, sans-serif;
@@ -88,9 +87,6 @@ p{
     color: #000;
     padding: 5px;
     margin-right: 15px;
-    
-    
-
 }
 
 .black-button-big{
@@ -107,9 +103,6 @@ p{
     border: 2px solid black;
     color: #000;
     padding: 5px
-    
-
-
 }
 
 .blue-button {
@@ -117,7 +110,6 @@ p{
     border: 2px solid #7289da;
     color: #fff;
 }
-
 
 .white-button {
     background-color: #fff;
@@ -139,99 +131,58 @@ p{
     color: white;
 }
 
-
-
-
-
-.container4 {
+.main-top {
     display: flex;
     justify-content: center;
     align-items: center;
     
-    
 }
 
-
-.box2 {
-    
-}
-
-.img{
-    height: 100%;
-
-}
-
-
-.box3 {
-}
-
-.box3>h1{
+h1{
     font-size: 40px;
+    margin-bottom:20px;
 }
 
-
-.box3>p{
+p{
     font-size: 18px;
 }
 
+.main-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-
-
-.container5 {
-    background-color: grey;
-    height: 400px;
+.main-bottom {
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
-.box4 {
-    width: 15%;
-    height: 70%;
-    background-color: black;
+
+.box-text{
+    padding: 50px;
+    text-align: center;
 }
-
-.box5 {
-    width: 25%;
-    height: 70%;
-    background-color: green;
-}
-
-
-.container6 {
-    background-color: black;
-    height: 400px;
+    
+.box-max{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-.box6 {
-    width: 25%;
-    height: 70%;
-    background-color: blue;
+.main-bonus{
+    margin: auto;
+    width: 50%;
 }
 
-.box7 {
-    width: 15%;
-    height: 70%;
-    background-color: crimson;
+h2{
+    font-size: 30px;
+    text-align: center;
+    
 }
 
-.box-max {
-    background-color: purple;
-    height: 800px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.box8 {
-    width: 40%;
-    height: 90%;
-    background-color: crimson;
-}
 
 footer {
     background-color: black;
