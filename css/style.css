@@ -22,6 +22,7 @@ header {
 
 .logo {
     height: 40px;
+    margin-top: 10px;
 
 }
 
@@ -30,6 +31,7 @@ header {
     display: flex;
     list-style: none;
     color: white;
+    padding: 0px 10px;
 }
 
 li {
@@ -57,6 +59,11 @@ li {
     padding: 20px;
     font-size: 18px;
 
+}
+
+.entity-top{
+    color: black;
+    font-weight: bold;
 }
 
 .white-button,
@@ -116,7 +123,8 @@ li {
     background-color: #fff;
     border: 2px solid #fff;
     color: #000;
-    padding: 5px
+    padding: 5px;
+    margin-top: 10px;
 }
 
 .entity {
@@ -298,7 +306,7 @@ h3{
 }
 
 
-.list-footer,li{
+.list-footer li{
     list-style: none;
     color: white;
     text-align: left;
