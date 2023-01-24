@@ -167,11 +167,7 @@ p {
 
 }
 
-.img{
-    width: 300px;
-}
-
-.box-text {
+.box-text2 {
     text-align: center;
 }
 
@@ -183,6 +179,11 @@ p {
 .main-bonus {
     margin: auto;
     width: 50%;
+}
+
+.box-text{
+    width: 28%;
+    margin: auto;
 }
 
 h2 {
